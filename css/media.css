@@ -1,0 +1,61 @@
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .workflexleft p, .skill-card, .eduleft p {
+        font-size: 14px;
+    }
+    .eduback {
+        margin-top: 60px;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .workflexleft p, .skill-card, .eduleft p, .email a, .phone a {
+        font-size: 12px;
+    }
+    h3, .workflexleft, .worktop h3, .eduleft h4 {
+        text-align: center;
+    }
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .workflexleft p, .skill-card, .eduleft p, .email a, .phone a {
+        font-size: 11px;
+    }
+    h3, .workflexleft, .worktop h3, .eduleft h4 {
+        text-align: center;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+    .workflexleft p, .skill-card, .eduleft p, .email a, .phone a {
+        font-size: 10px;
+    }
+    h3, .workflexleft, .worktop h3, .eduleft h4 {
+        text-align: center;
+    }
+    .textPart h1 { font-size: 24px; }
+    .textPart p { font-size: 14px; }
+    .image { width: 120px; height: 120px; }
+}
+
+/* Very small devices (320px) */
+@media (max-width: 320px) {
+    .workflexleft p, .skill-card, .eduleft p, .email a, .phone a {
+        font-size: 9px;
+    }
+    h3, .workflexleft h3, .worktop h3 {
+        font-size: 14px;
+    }
+    .eduleft h4 {
+        font-size: 11px;
+    }
+    .textPart h1 { font-size: 20px; }
+    .textPart p { font-size: 12px; }
+    .image { width: 100px; height: 100px; }
+    .container { padding: 0 5px; }
+}
+
+

@@ -1,0 +1,215 @@
+/* ======================== Reset & Base ======================== */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ======================== Header ======================== */
+#headerPart {
+    padding: 45px 0 30px 0;
+}
+
+.textPart h1 {
+    font-weight: 800;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.textPart p {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 0;
+}
+
+.email, .phone {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.email i, .phone i {
+    font-size: 18px;
+    color: gray;
+    padding-top: 5px;
+}
+
+.email a, .phone a {
+    font-size: 18px;
+    color: gray;
+    padding-left: 10px;
+}
+
+.email a:hover, .phone a:hover {
+    color: #1a73e8;
+}
+
+.github {
+    display: inline-block;
+    justify-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #f9f9f9;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.github i {
+    font-size: 18px;
+    padding-top: 1px;
+}
+
+.github a {
+    font-size: 14px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.github a:hover {
+    color: #1a73e8;
+}
+
+.image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin: 20px auto 0 auto;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+/* ======================== Work ======================== */
+#workPart {
+    padding: 20px 0;
+}
+
+.worktop h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: rgb(239, 236, 236);
+}
+
+.workflexleft {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 15px 0 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+
+.workflexleft h3 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.workflexleft h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.workflexleft p {
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+    line-height: 24px;
+    width: 100%;
+}
+
+/* ======================== Skills ======================== */
+.skill-card {
+    background: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.skillsline {
+    width: 100%;
+    height: 2px;
+    background: #f9f9f9;
+    margin-bottom: 15px;
+}
+
+/* ======================== Education ======================== */
+.eduleft p {
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+    line-height: 24px;
+}
+
+.eduleft h3 {
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.eduleft h4 {
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.eduback, .eduback2 {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    background: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.eduline {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 2px;
+    background: #f9f9f9;
+}
